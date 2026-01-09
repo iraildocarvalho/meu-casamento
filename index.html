@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nosso Casamento</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Maria & João</h1>
+    <p>Vamos nos casar 💍</p>
+    <span>20 de Abril de 2026</span>
+  </header>
+
+  <section class="section">
+    <h2>Nossa História</h2>
+    <p>
+      Nossa história começou de forma simples, mas foi crescendo até se tornar
+      esse amor que hoje celebramos.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Detalhes do Evento</h2>
+    <ul>
+      <li><strong>Data:</strong> 20/04/2026</li>
+      <li><strong>Horário:</strong> 16h</li>
+      <li><strong>Local:</strong> Igreja Exemplo – Cidade/UF</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Confirmação de Presença</h2>
+    <form id="rsvpForm">
+      <input name="nome" type="text" placeholder="Seu nome" required />
+      <input name="email" type="email" placeholder="Seu e-mail" required />
+      <select name="presenca" required>
+        <option value="">Você irá comparecer?</option>
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+      </select>
+      <button type="submit">Confirmar</button>
+    </form>
+    <p id="mensagem"></p>
+  </section>
+
+  <footer>
+    <p>Com amor ❤️ Maria & João</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

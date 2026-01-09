@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #faf7f5;
+  color: #4a3f3a;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+              url("https://images.unsplash.com/photo-1523438885200-e635ba2c371e");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 120px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, button {
+  padding: 12px;
+  font-size: 1rem;
+}
+
+button {
+  background: #c49b63;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b08850;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #eee;
+}
